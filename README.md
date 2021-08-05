@@ -1,5 +1,5 @@
 This project is running in port 8025
-if you prefer another port, chance in docker-compose.yml, line 242, traefik options
+if you prefer another port, change in docker-compose.yml, line 242, traefik options
 
 automail folder is the laravel project folder.
 
