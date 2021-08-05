@@ -1,0 +1,26 @@
+swagger: "2.0"
+info:
+  title: Sample API
+  description: API test
+  version: 1.0
+
+host: mailhog.php.docker.localhost:9000
+basePath:
+schemes:
+  - http
+
+paths:
+  /:
+    get:
+      summary: Return email arrived
+      description: Test Email
+      consumes:
+        - application/json
+        - application/xml
+        - application/yaml
+      produces:
+        - application/json
+        - application/yaml
+      responses:
+        200:
+          description: Your email has arrived! 
